@@ -1,3 +1,3 @@
 # Jame-Gam-58
 Our first GameJam project!
-polar was here
+this is a test of this thingy 2
