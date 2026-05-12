@@ -8,7 +8,11 @@
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.585, 0.585)
 
-[node name="spawner-container" type="Container" parent="."]
+[node name="spawner-container" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="bullet-spawner1" parent="spawner-container" groups=["Right Spawner"] instance=ExtResource("1_ox7t7")]
 position = Vector2(500, 0)
