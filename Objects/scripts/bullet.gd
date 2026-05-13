@@ -2,8 +2,12 @@ extends CharacterBody2D
 
 var SPEED = 10000
 	
+
 func _physics_process(delta: float) -> void:
 	move_and_slide()
+	point_bullet(delta)
+	
+func point_bullet(delta: float):
 	if is_in_group("Top Spawner"):
 		velocity.y = SPEED * delta
 		
