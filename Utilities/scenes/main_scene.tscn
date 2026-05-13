@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://jr7qfsc0uhdv"]
+[gd_scene load_steps=4 format=3 uid="uid://jr7qfsc0uhdv"]
 
 [ext_resource type="PackedScene" uid="uid://bx4u72kmieiup" path="res://Jame-Gam-58/Utilities/scenes/bullet_spawner.tscn" id="1_ox7t7"]
 [ext_resource type="PackedScene" uid="uid://guryynls3o1l" path="res://Jame-Gam-58/Objects/scenes/tower.tscn" id="2_7mml0"]
+[ext_resource type="PackedScene" uid="uid://dwi8nac8a67fu" path="res://Jame-Gam-58/Objects/scenes/shield.tscn" id="3_gvl8j"]
 
 [node name="main scene" type="Node2D"]
 
@@ -30,3 +31,5 @@ position = Vector2(0, 500)
 rotation = -1.5708
 
 [node name="tower" parent="." instance=ExtResource("2_7mml0")]
+
+[node name="shield" parent="." instance=ExtResource("3_gvl8j")]
